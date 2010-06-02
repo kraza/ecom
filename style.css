@@ -1,0 +1,141 @@
+BODY {
+	
+	Background-color: #9F1E30;
+}
+
+td {
+	font-family: Tahoma,  Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #5E5E5E; 
+	font-weight:normal; 
+	line-height:15px;
+}
+
+.menu {
+	font-family:   Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #5B5B5B; 
+	line-height:18px; 
+	text-decoration:none; 
+	font-weight:bold;
+}
+.menu:hover {
+	font-family:   Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #5B5B5B; 
+	line-height:18px; 
+	text-decoration:underline; 
+	font-weight:bold;
+}
+
+.menu2 {
+	font-family:   Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #777777; 
+	line-height:18px; 
+	text-decoration:none; 
+	font-weight:bold;
+}
+.menu2:hover {
+	font-family:   Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #777777; 
+	line-height:18px; 
+	text-decoration:underline; 
+	font-weight:bold;
+}
+
+.cart {
+	font-family:   Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #3C3C3C; 
+	line-height:18px; 
+	text-decoration:none; 
+	font-weight:bold;
+}
+.cart:hover {
+	font-family:   Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #3C3C3C; 
+	line-height:18px; 
+	text-decoration:underline; 
+	font-weight:bold;
+}
+
+.big {
+	font-family: Tahoma, verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	color: #ffffff; 
+	line-height:16px; 
+	text-decoration:none; 
+	font-weight: bold; 
+}
+
+.large {
+	font-family: Tahoma, verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #ffffff; 
+	line-height:15px; 
+	text-decoration:none; 
+	font-weight: bold; 
+}
+
+.caption {
+	font-family: Tahoma, verdana, Arial, Helvetica, sans-serif; 
+	font-size: 22px; 
+	color: #4A6663; 
+	line-height:15px; 
+	text-decoration:none; 
+	font-weight: Normal; 
+}
+
+.footermenu {
+	font-family:   Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #ffffff; 
+	line-height:18px; 
+	text-decoration:none; 
+	font-weight:bold;
+}
+.footermenu:hover {
+	font-family:   Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #ffffff; 
+	line-height:18px; 
+	text-decoration:underline; 
+	font-weight:bold;
+}
+
+div.pagination {
+	padding:3px;
+	margin:3px;
+	text-align:center;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 1px solid #ddd;
+	
+	text-decoration: none; 
+	color: #88AF3F;
+}
+div.pagination a:hover, div.pagination a:active {
+	border:1px solid #85BD1E;
+	color: #638425;
+	background-color: #F1FFD6;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 1px solid #B2E05D;
+	font-weight: bold;
+	background-color: #B2E05D;
+	color: #FFF;
+}
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 1px solid #f3f3f3;
+	color: #ccc;
+}

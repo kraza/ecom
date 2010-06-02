@@ -1,0 +1,268 @@
+<?php
+//echo "Session is ".$_SESSION['authorized'];
+//if ($_SESSION['authorized'] != 1) 
+//{
+ //   header("Location: index.php");	
+  //  exit;
+//}
+
+
+?>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>HAREDESIGNS.COM</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<Link href="../style.css" type="text/css" rel="stylesheet">
+<style type="text/css">
+<!--
+.style2 {font-size: 12px}
+.style3 {font-size: 13px; line-height:18px; text-decoration:none; font-weight:bold; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+-->
+</style>
+</head>
+
+<body background="../images/pgbg.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="770" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="15" align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" bgcolor="#FFFFFF"><table width="755" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="75" align="center" valign="middle"><table width="720" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="475" height="30" align="left" valign="middle" class="caption"><a href="/index.php"><img src="../images/logo.jpg" width="150" height="111" border="0"></a></td>
+              <td width="114" height="30" align="right" valign="middle" class="cart">&nbsp;</td>
+              <td width="130" height="30" align="center" valign="middle"><div align="left" class="style2"><br>
+              </div></td>
+              <td width="10" height="30"><a href="#" class="cart"></a></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td height="32" align="center" valign="middle" background="../images/menubar.gif">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><table width="755" height="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr align="center" valign="top">
+                <td width="176"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="20" align="left" valign="middle">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td height="31" align="left" valign="middle" background="../images/shop.gif" style="background-repeat:no-repeat">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style3"><strong><font color="#FFFFFF">C</font></strong></span><span class="footermenu"><strong><font color="#FFFFFF">ategories</font></strong></span></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Accessories</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Apparel</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Awards/Pins</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Band/Guard</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Bridal</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Dog (ID) Tags</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Dance/Cheer</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Embroidery</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Jewelery</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Lanyards</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Rhinestones</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Screenprinting</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Schools/Clubs</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+						  <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Sports</a></td>
+                                </tr>
+							
+                              </table></td>
+                          </tr>
+						  <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Sublimation</a></td>
+                                </tr>
+							
+                              </table></td>
+                          </tr>
+						  <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Team Packs</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+						  <tr>
+                            <td style="border-bottom:1px solid #D8D8D8" height="26" align="center" valign="middle"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="10%" height="22" align="center"><img src="../images/bullet.gif" width="7" height="9"></td>
+                                  <td width="90%" height="22" align="left" valign="middle"><a href="#" class="menu2">Vinly Art</a></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        
+                        </table></td>
+                    </tr>
+                    <tr> 
+                      <td height="325" align="center" valign="top">&nbsp;</td>
+                    </tr>
+                </table></td>
+                <td width="10">&nbsp;</td>
+                <td width="559"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="100%" height="20" colspan="2" align="left" valign="top">&nbsp;</td>
+                    </tr>
+                    
+                    <tr> 
+                      <td height="31" colspan="2" align="left" valign="middle" background="../images/greenbar.gif" style="background-repeat:no-repeat" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style3"><strong><font color="#FFFFFF">Welcome to HAREDESIGNS Admin Module </font></strong></span></td>
+                    </tr>
+                    <tr> 
+                      <td height="20" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2" align="center" valign="top">&nbsp;</td>
+                    </tr>
+                </table>
+                  <p><strong>Product List</strong></p>
+                  <p>&nbsp;</p>
+                  <table width="500" border="1">
+                    
+                    <tr>
+                      <td width="132"><strong>Product Name</strong></td>
+                      <td width="352"><input type="text" name="product_name"></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Catageory</strong></td>
+                      <td><select name="catageory" id="catagory" size="10">
+                      <option value="1">Catgeory name</option>
+                      </select></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Image</strong></td>
+                      <td><input type="file" name="img" /></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Description</strong></td>
+                      <td><textarea name="description" rows="5" cols="40"> </textarea></td>
+                    </tr>
+                    <tr>
+                      <td><input type="submit" name="submit" value="Submit"/> <input type="reset" name="reset" value="Reset"/> </td>
+                      
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p></td>
+                <td width="10">&nbsp;</td>
+                
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td align="center" valign="middle" bgcolor="#3C3C3C"><img src="../images/bottom.gif" width="2" height="2"></td>
+        </tr>
+        <tr>
+          <td height="40" align="center" valign="middle">Copyright 2010 Hare Designs- All rights reserved.</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="15" align="left" valign="top">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

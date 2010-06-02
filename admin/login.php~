@@ -1,0 +1,29 @@
+<?php 
+include("../db/db_connect.php");
+$user_name = $_POST['uname'];
+$user_password = $_POST['upassword'];
+
+mysql_select_db("rajan");
+
+$query = "select * from admin where `name` = '".$user_name."' and `password` = '".$user_password."'";
+
+$select_user = mysql_query($query);
+//echo mysql_num_rows($result);
+
+if (mysql_fetch_assoc($select_user) != 0) 
+{
+    session_start();
+    session_register('authorized');
+    $_SESSION['authorized'] = true;
+//echo "Session value is". $_SESSION['authorized'];
+    header("Location: home.php");
+    exit;
+} 
+else 
+{
+    header("Location: index.php");
+    exit;	
+}
+
+
+?>
